@@ -21,7 +21,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     private func createRootViewController() -> UIViewController {
-        return UglyViewController(presenter: RandomWordHomePresenter())
+        let presenter: HomePresenterProtocol = StarwarsCharactersPresenter(repository: StarWarsVilliansRepository())
+        return UglyViewController(presenter: presenter)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

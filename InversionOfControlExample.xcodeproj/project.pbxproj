@@ -18,6 +18,9 @@
 		04C463CF293F96DD00F90589 /* DeadHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C463CE293F96DD00F90589 /* DeadHomePresenter.swift */; };
 		04C463D1293F97C000F90589 /* DisneyWordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C463D0293F97C000F90589 /* DisneyWordPresenter.swift */; };
 		04C463D3293F9AAA00F90589 /* UglyHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C463D2293F9AAA00F90589 /* UglyHomeViewController.swift */; };
+		04C463D5293FA10700F90589 /* StarWarsRespository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C463D4293FA10700F90589 /* StarWarsRespository.swift */; };
+		04C463D8293FA1D800F90589 /* StarwarsCharactersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C463D7293FA1D800F90589 /* StarwarsCharactersPresenter.swift */; };
+		04C463DA293FA44C00F90589 /* StarWarsVilliansRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C463D9293FA44C00F90589 /* StarWarsVilliansRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		04C463CE293F96DD00F90589 /* DeadHomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadHomePresenter.swift; sourceTree = "<group>"; };
 		04C463D0293F97C000F90589 /* DisneyWordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyWordPresenter.swift; sourceTree = "<group>"; };
 		04C463D2293F9AAA00F90589 /* UglyHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UglyHomeViewController.swift; sourceTree = "<group>"; };
+		04C463D4293FA10700F90589 /* StarWarsRespository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsRespository.swift; sourceTree = "<group>"; };
+		04C463D7293FA1D800F90589 /* StarwarsCharactersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarwarsCharactersPresenter.swift; sourceTree = "<group>"; };
+		04C463D9293FA44C00F90589 /* StarWarsVilliansRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsVilliansRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 		04C463AF293F844300F90589 /* InversionOfControlExample */ = {
 			isa = PBXGroup;
 			children = (
+				04C463D6293FA10D00F90589 /* Respositories */,
 				04C463CD293F96AA00F90589 /* ViewControllers */,
 				04C463CC293F969100F90589 /* Presenters */,
 				04C463C7293F875300F90589 /* Extensions */,
@@ -101,6 +108,7 @@
 				04C463CA293F8A3B00F90589 /* HomePresenter.swift */,
 				04C463D0293F97C000F90589 /* DisneyWordPresenter.swift */,
 				04C463CE293F96DD00F90589 /* DeadHomePresenter.swift */,
+				04C463D7293FA1D800F90589 /* StarwarsCharactersPresenter.swift */,
 			);
 			path = Presenters;
 			sourceTree = "<group>";
@@ -112,6 +120,15 @@
 				04C463D2293F9AAA00F90589 /* UglyHomeViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04C463D6293FA10D00F90589 /* Respositories */ = {
+			isa = PBXGroup;
+			children = (
+				04C463D4293FA10700F90589 /* StarWarsRespository.swift */,
+				04C463D9293FA44C00F90589 /* StarWarsVilliansRepository.swift */,
+			);
+			path = Respositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,13 +202,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C463C6293F86B100F90589 /* Size.swift in Sources */,
+				04C463D5293FA10700F90589 /* StarWarsRespository.swift in Sources */,
 				04C463D3293F9AAA00F90589 /* UglyHomeViewController.swift in Sources */,
 				04C463B5293F844300F90589 /* HomeViewController.swift in Sources */,
+				04C463DA293FA44C00F90589 /* StarWarsVilliansRepository.swift in Sources */,
 				04C463B1293F844300F90589 /* AppDelegate.swift in Sources */,
 				04C463CB293F8A3B00F90589 /* HomePresenter.swift in Sources */,
 				04C463D1293F97C000F90589 /* DisneyWordPresenter.swift in Sources */,
 				04C463C9293F876600F90589 /* ViewExtensions.swift in Sources */,
 				04C463B3293F844300F90589 /* SceneDelegate.swift in Sources */,
+				04C463D8293FA1D800F90589 /* StarwarsCharactersPresenter.swift in Sources */,
 				04C463CF293F96DD00F90589 /* DeadHomePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
